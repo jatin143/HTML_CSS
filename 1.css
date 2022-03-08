@@ -1,0 +1,44 @@
+/* 
+# for ids
+. for classes
+Ids are uniue but classes can be repetitive
+div and span are used for grouping
+div works as internal css and span works as inline css*/
+h3 {
+  color: blue;
+  
+}
+
+h1 {
+  color: blue;
+}
+#one {
+  color: brown;
+}
+.two {
+  color: blueviolet;
+}
+#three {
+  color: chartreuse;
+}
+div {
+  color: chocolate;
+}
+span {
+  color: cornflowerblue;
+}
+/* last rule means the last rule is considered in CSS
+Specificity is given more importance
+Universal Selector (*) is given least specificity*/
+span {
+  color: crimson;
+}
+p {
+  color: darkblue;
+}
+.holy {
+  color: darkgreen;
+}
+* {
+  color: black;
+}
